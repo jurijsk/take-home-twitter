@@ -1,4 +1,10 @@
-This project is to save Tweets, replies or bookmarks from Twitter as standalone page what works without connection to the internet.
+
+
+This quide is intended for people who are worried that Twitter can go away, or that it will start purging inactive account of people who are no longer with us. 
+
+**If you are looking to preserve a memorial account, and struggling to preserve it with instructions below, please feel free to open a [preservation request](https://github.com/jurijsk/take-home-twitter/issues/new?template=preservation-request.md).** I can not give any quaranties, but I will try to help, or someone else can pick up the ticket.
+
+This guide describes how to preserve tweets, replies or bookmarks from Twitter as standalone page that works without connection to the internet.
 
 Unfortunately, videos are not going to be saved.
 
@@ -114,7 +120,7 @@ document.querySelectorAll('style')[len].innerHTML = css;
 //it will print some concentrated giberish, do not worry about it
 ```
 
- * Click on some empty space on the page and press `Crtl+S` to save the page. 
+ * Click on some empty space on the page and press `Crtl+S` to save the page. 
 
  Mind that then the page is saved, the browser saves the page itself and the directory by the same name will all images and resources.
 
