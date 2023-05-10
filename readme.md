@@ -109,6 +109,7 @@ document.querySelectorAll('script').forEach((s) => { s.remove() })
 document.querySelector("div[style*='position: relative; min-height:']").style.removeProperty("min-height")
 
 //saves dynamic styling, or something
+{
 let css = '';
 let len = document.styleSheets.length - 1;
 let csst = document.styleSheets[len].cssRules;
@@ -117,6 +118,7 @@ for (let i = 0;i < csst.length; i++) {
     css += csso.cssText;
 }
 document.querySelectorAll('style')[len].innerHTML = css;
+}
 //it will print some concentrated giberish, do not worry about it
 ```
 
